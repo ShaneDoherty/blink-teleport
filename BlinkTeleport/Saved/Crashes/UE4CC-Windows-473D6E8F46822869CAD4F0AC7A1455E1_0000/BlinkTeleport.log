@@ -1,0 +1,1864 @@
+﻿Log file open, 04/20/21 20:29:13
+LogInit: Display: Running engine for game: BlinkTeleport
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.944448
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: S:/Programs/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.04.20-18.29.14:734][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.20-18.29.14:735][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.20-18.29.14:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:736][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:738][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.20-18.29.14:738][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.20-18.29.14:739][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-18.29.14:740][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-18.29.14:740][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.20-18.29.14:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.20-18.29.14:740][  0]LogHAL: Display: Platform has ~ 16 GB [17119219712 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.20-18.29.14:740][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.20-18.29.14:741][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.20-18.29.14:741][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-18.29.14:742][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.20-18.29.14:743][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.20-18.29.14:743][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.20-18.29.14:743][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.20-18.29.14:743][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Config/Windows/Engine.ini]
+[2021.04.20-18.29.14:743][  0]LogInit: Computer: DOHERTYS-DESKTO
+[2021.04.20-18.29.14:743][  0]LogInit: User: Doherty
+[2021.04.20-18.29.14:743][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.20-18.29.14:743][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.20-18.29.14:743][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.20-18.29.14:743][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.20-18.29.14:743][  0]LogMemory: Process Physical Memory: 118.91 MB used, 118.92 MB peak
+[2021.04.20-18.29.14:743][  0]LogMemory: Process Virtual Memory: 100.10 MB used, 100.10 MB peak
+[2021.04.20-18.29.14:743][  0]LogMemory: Physical Memory: 8751.42 MB used,  7574.74 MB free, 16326.16 MB total
+[2021.04.20-18.29.14:743][  0]LogMemory: Virtual Memory: 5187.40 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.04.20-18.29.14:750][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.20-18.29.15:094][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.20-18.29.15:107][  0]LogInit: Using OS detected language (en-US).
+[2021.04.20-18.29.15:107][  0]LogInit: Using OS detected locale (en-GB).
+[2021.04.20-18.29.15:127][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.20-18.29.15:609][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.20-18.29.15:749][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.20-18.29.15:749][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.20-18.29.16:919][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.20-18.29.16:919][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.20-18.29.16:919][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.20-18.29.17:005][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.04.20-18.29.17:005][  0]LogD3D11RHI:       8079/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.20-18.29.17:007][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.20-18.29.17:007][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.20-18.29.17:007][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.20-18.29.17:016][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.20-18.29.17:016][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.20-18.29.17:016][  0]LogWindows: EnumDisplayDevices:
+[2021.04.20-18.29.17:016][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.04.20-18.29.17:016][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.04.20-18.29.17:017][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.04.20-18.29.17:017][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.04.20-18.29.17:017][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.20-18.29.17:017][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.04.20-18.29.17:017][  0]LogD3D11RHI:   Driver Version: 456.38 (internal:27.21.14.5638, unified:456.38)
+[2021.04.20-18.29.17:017][  0]LogD3D11RHI:      Driver Date: 9-14-2020
+[2021.04.20-18.29.17:017][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.04.20-18.29.17:080][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.20-18.29.17:088][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.04.20-18.29.17:088][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.20-18.29.17:088][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.20-18.29.17:104][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.20-18.29.17:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.20-18.29.17:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.20-18.29.17:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.20-18.29.17:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.20-18.29.17:940][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.20-18.29.17:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.20-18.29.17:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.20-18.29.17:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.20-18.29.17:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.20-18.29.17:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.20-18.29.18:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.20-18.29.18:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.20-18.29.18:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.20-18.29.18:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.20-18.29.18:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.20-18.29.18:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.20-18.29.18:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.20-18.29.18:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.20-18.29.18:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.20-18.29.18:122][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.20-18.29.18:181][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.20-18.29.18:465][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Intermediate/Shaders/WorkingDirectory/22668/).
+[2021.04.20-18.29.18:465][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Doherty/AppData/Local/Temp/UnrealShaderWorkingDir/9DC18BF9483BE244A339529CF400FF27/'.
+[2021.04.20-18.29.18:481][  0]LogXGEController: Cleaning working directory: C:/Users/Doherty/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.20-18.29.18:481][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.20-18.29.18:481][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.20-18.29.18:481][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.20-18.29.19:801][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.20-18.29.20:121][  0]LogDerivedDataCache: Loaded boot cache 0.32s 80MB C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.20-18.29.20:121][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.20-18.29.20:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.20-18.29.20:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.20-18.29.20:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.20-18.29.20:122][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.20-18.29.20:132][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.20-18.29.20:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.20-18.29.20:132][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.20-18.29.20:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Doherty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.20-18.29.20:133][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.20-18.29.20:133][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.20-18.29.20:194][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.20-18.29.20:721][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.20-18.29.20:849][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2021.04.20-18.29.21:152][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.20-18.29.21:538][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.20-18.29.21:538][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.20-18.29.21:538][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.20-18.29.21:538][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.20-18.29.21:538][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.20-18.29.21:557][  0]LogNetVersion: BlinkTeleport 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 59473965)
+[2021.04.20-18.29.22:795][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F4D65A6C80), frame # 0
+[2021.04.20-18.29.22:795][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F4D6416AC0), frame # 0
+[2021.04.20-18.29.22:797][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4D6475A00), frame # 0
+[2021.04.20-18.29.22:846][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.043640 seconds
+[2021.04.20-18.29.22:853][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.20-18.29.22:853][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.20-18.29.22:853][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.20-18.29.24:313][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.20-18.29.24:322][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.20-18.29.24:511][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.04.20-18.29.24:511][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.04.20-18.29.24:511][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2021.04.20-18.29.24:665][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.24:665][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.24:684][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.24:697][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.24:728][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.25:862][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.20-18.29.25:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-18.29.25:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-18.29.26:086][  0]LogOcInput: OculusInput pre-init called
+[2021.04.20-18.29.26:574][  0]LogEngine: Initializing Engine...
+[2021.04.20-18.29.26:593][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 1PASH5D1P17365
+[2021.04.20-18.29.26:607][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.20-18.29.26:741][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.20-18.29.26:875][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.20-18.29.26:875][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4E18A5600), frame # 0
+[2021.04.20-18.29.26:875][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F4E188FB00), frame # 0
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.29.26:898][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.29.26:898][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.29.26:898][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.29.26:934][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.29.26:934][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.29.26:976][  0]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.29.26:976][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.29.26:978][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.29.26:978][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.29.26:981][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.29.26:982][  0]LogInit: FAudioDevice initialized.
+[2021.04.20-18.29.26:983][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.20-18.29.27:173][  0]LogDerivedDataCache: Saved boot cache 0.19s 80MB C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.20-18.29.27:177][  0]LogInit: Texture streaming: Enabled
+[2021.04.20-18.29.27:240][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.20-18.29.27:240][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.20-18.29.27:242][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.20-18.29.27:358][  0]LogInit: Transaction tracking system initialized
+[2021.04.20-18.29.27:590][  0]BlueprintLog: New page: Editor Load
+[2021.04.20-18.29.27:995][  0]LocalizationService: Localization service is disabled
+[2021.04.20-18.29.29:911][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.20-18.29.29:912][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.20-18.29.30:781][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/' took 0.00s
+[2021.04.20-18.29.31:193][  0]SourceControl: Source control is disabled
+[2021.04.20-18.29.31:193][  0]LogUnrealEdMisc: Loading editor; pre map load, took 24.223
+[2021.04.20-18.29.31:193][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.20-18.29.31:193][  0]LightingResults: New page: Lighting Build
+[2021.04.20-18.29.31:209][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.29.31:209][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.29.31:209][  0]MapCheck: New page: Map Check
+[2021.04.20-18.29.31:209][  0]LightingResults: New page: Lighting Build
+[2021.04.20-18.29.31:229][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F4E18A5600), frame # 0
+[2021.04.20-18.29.31:229][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F4E188FB00), frame # 0
+[2021.04.20-18.29.31:230][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.04.20-18.29.31:301][  0]LogAIModule: Creating AISystem for world StartupMap
+[2021.04.20-18.29.31:301][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4C5E3BE00), frame # 0
+[2021.04.20-18.29.31:301][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F4E0F39080), frame # 0
+[2021.04.20-18.29.31:307][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.20-18.29.31:318][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.20-18.29.31:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.20-18.29.31:319][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.159ms to complete.
+[2021.04.20-18.29.31:319][  0]LogFileHelpers: Loading map 'StartupMap' took 0.126
+[2021.04.20-18.29.31:322][  0]LogUnrealEdMisc: Total Editor Startup Time, took 24.352
+[2021.04.20-18.29.31:578][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.31:587][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.31:595][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.31:603][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.31:621][  0]LogCollectionManager: Loaded 0 collections in 0.001030 seconds
+[2021.04.20-18.29.31:646][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/Collections/' took 0.00s
+[2021.04.20-18.29.31:647][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/Developers/Doherty/Collections/' took 0.00s
+[2021.04.20-18.29.31:647][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/Collections/' took 0.00s
+[2021.04.20-18.29.31:647][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3427 classes and 821 folders.
+[2021.04.20-18.29.31:684][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.20-18.29.32:474][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.20-18.29.32:476][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.04.20-18.29.33:252][  0]LogSlate: Took 0.005704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.20-18.29.33:257][  0]LogSlate: Took 0.002544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.20-18.29.33:270][  0]LogSlate: Took 0.008738 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.20-18.29.33:352][  0]LogRenderer: Reallocating scene render targets to support 1248x596 Format 26 NumSamples 1 (Frame:1).
+[2021.04.20-18.29.33:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.20-18.29.33:435][  0]LogLoad: (Engine Initialization) Total time: 26.47 seconds
+[2021.04.20-18.29.33:435][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.20-18.29.33:453][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
+[2021.04.20-18.29.33:454][  0]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.29.33:455][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.29.33:496][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.29.33:520][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.04.20-18.29.33:522][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [22668][application.generated.ue.virtual-reality-bp-game-template-13594126.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.04.20-18.29.33:522][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.29.33:523][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.04.20-18.29.33:523][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.04.20-18.29.33:523][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.04.20-18.29.33:523][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:523][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.04.20-18.29.33:524][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.04.20-18.29.33:525][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:526][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:527][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:528][  0]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.29.33:528][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.29.33:532][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.29.33:537][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.04.20-18.29.33:538][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [22668][application.generated.ue.virtual-reality-bp-game-template-13594126.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.04.20-18.29.33:538][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.04.20-18.29.33:539][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:540][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.29.33:541][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.29.33:596][  0]LogAssetRegistry: Asset discovery search completed in 12.7477 seconds
+[2021.04.20-18.29.33:600][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.20-18.29.33:601][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.20-18.29.33:633][  0]LogSlate: Took 0.001055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.20-18.29.39:446][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.29.40:299][567]PIE: New page: PIE session: StartupMap (20 Apr 2021, 22:29:39)
+[2021.04.20-18.29.40:340][567]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.20-18.29.40:348][567]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.20-18.29.40:367][567]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2021.04.20-18.29.40:420][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053261s)
+[2021.04.20-18.29.40:422][567]LogAIModule: Creating AISystem for world StartupMap
+[2021.04.20-18.29.40:422][567]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F491E83E00), frame # 567
+[2021.04.20-18.29.40:422][567]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F491E8BD80), frame # 567
+[2021.04.20-18.29.40:422][567]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2021.04.20-18.29.40:422][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.055533s)
+[2021.04.20-18.29.40:430][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.29.40:459][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.29.40:459][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.29.40:460][567]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.29.40:460][567]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.29.40:464][567]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.29.40:465][567]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.29.40:475][567]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.29.40:476][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.29.40:476][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.29.40:476][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.29.40:476][567]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.29.40:490][567]LogInit: FAudioDevice initialized.
+[2021.04.20-18.29.40:508][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.40:546][567]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.29.40:625][567]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2021.04.20-20.29.40
+[2021.04.20-18.29.40:626][567]LogWorld: Bringing up level for play took: 0.002553
+[2021.04.20-18.29.40:627][567]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.04.20-18.29.40:770][567]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.04.20-18.29.40:892][567]PIE: Server logged in
+[2021.04.20-18.29.40:894][567]PIE: Play in editor total start time 1.984 seconds.
+[2021.04.20-18.29.41:011][568]LogRenderer: Warning: Resizing VR buffer to 3760 by 2116
+[2021.04.20-18.29.41:012][568]LogRenderer: Reallocating scene render targets to support 3760x2116 Format 26 NumSamples 1 (Frame:1).
+[2021.04.20-18.29.56:460][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.29.56:460][649]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2021.04.20-18.29.57:182][649]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.29.57:215][649]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.29.57:215][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.29.57:224][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.29.57:249][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.29.57:282][649]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F491E83E00), frame # 1649
+[2021.04.20-18.29.57:282][649]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F491E8BD80), frame # 1649
+[2021.04.20-18.29.57:282][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.04.20-18.29.57:305][650]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.04.20-18.30.01:641][117]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.20-18.30.02:476][117]LogAssetEditorSubsystem: Opening Asset editor for World /Game/BlinkTeleport/Maps/Blink_VFX_v1.Blink_VFX_v1
+[2021.04.20-18.30.02:496][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.04.20-18.30.02:497][117]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/BlinkTeleport/Maps/Blink_VFX_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.20-18.30.02:497][117]LightingResults: New page: Lighting Build
+[2021.04.20-18.30.02:497][117]LoadErrors: New page: Loading map: Blink_VFX_v1.umap
+[2021.04.20-18.30.02:498][117]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.30.02:498][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.30.02:498][117]MapCheck: New page: Map Check
+[2021.04.20-18.30.02:498][117]LightingResults: New page: Lighting Build
+[2021.04.20-18.30.02:507][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F4C5E3BE00), frame # 2117
+[2021.04.20-18.30.02:507][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F4E0F39080), frame # 2117
+[2021.04.20-18.30.02:507][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.04.20-18.30.02:596][117]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.20-18.30.02:596][117]LogAIModule: Creating AISystem for world Blink_VFX_v1
+[2021.04.20-18.30.02:597][117]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F485E1A600), frame # 2117
+[2021.04.20-18.30.02:597][117]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F4E0F39300), frame # 2117
+[2021.04.20-18.30.02:606][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.04.20-18.30.02:622][117]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.20-18.30.02:623][117]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2021.04.20-18.30.02:623][117]LogFileHelpers: Loading map 'Blink_VFX_v1' took 0.126
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2021.04.20-18.30.34:443][728]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.04.20-18.30.34:443][728]LogMaterial: Display: Missing cached shader map for material CubeMaterial, compiling. 
+[2021.04.20-18.30.35:445][728]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.20-18.30.35:445][728]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.04.20-18.30.35:445][728]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.04.20-18.30.35:445][728]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.04.20-18.30.36:075][728]LogObjectTools: Deleting 2 worlds: /Game/VirtualRealityBP/Maps/StartupMap.StartupMap, /Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap
+[2021.04.20-18.30.36:075][728]LogObjectTools: Currently 2 active worlds: /Game/BlinkTeleport/Maps/Blink_VFX_v1.Blink_VFX_v1, /Engine/Transient.World_0
+[2021.04.20-18.30.36:091][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.04.20-18.30.39:765][728]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-18.30.41:657][728]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.30.41:657][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.30.41:978][728]LogWorld: UWorld::CleanupWorld for HMDLocomotionMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.30.41:978][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.30.44:949][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.04.20-18.30.44:964][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.04.20-18.30.44:973][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.04.20-18.30.44:982][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.04.20-18.30.45:003][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.20-18.30.45:013][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.04.20-18.30.50:552][846]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.04.20-18.30.50:747][846]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2021.04.20-18.30.50:747][846]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2021.04.20-18.30.50:747][846]LogStaticMesh: Building static mesh BeamMesh...
+[2021.04.20-18.30.51:809][846]LogStaticMesh: Built static mesh [1.06s] /Game/VirtualReality/Meshes/BeamMesh.BeamMesh
+[2021.04.20-18.30.51:831][846]LogMaterial: Display: Missing cached shader map for material M_SplineArcMat, compiling. 
+[2021.04.20-18.30.52:377][846]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.04.20-18.30.52:377][846]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.04.20-18.30.52:377][846]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.04.20-18.30.52:377][846]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.04.20-18.30.52:380][846]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.04.20-18.30.52:392][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.04.20-18.30.52:401][846]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.20-18.30.52:401][846]LightingResults: New page: Lighting Build
+[2021.04.20-18.30.52:401][846]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2021.04.20-18.30.52:446][846]LogWorld: UWorld::CleanupWorld for Blink_VFX_v1, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.30.52:446][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.30.52:446][846]MapCheck: New page: Map Check
+[2021.04.20-18.30.52:446][846]LightingResults: New page: Lighting Build
+[2021.04.20-18.30.52:555][846]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F4E0F39300), frame # 3846
+[2021.04.20-18.30.52:555][846]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F485E1A600), frame # 3846
+[2021.04.20-18.30.52:556][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.04.20-18.30.52:759][846]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.20-18.30.52:759][846]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.30.52:759][846]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4E8816C00), frame # 3846
+[2021.04.20-18.30.52:759][846]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F485B9C900), frame # 3846
+[2021.04.20-18.30.52:830][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.04.20-18.30.52:857][846]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.20-18.30.52:858][846]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.162ms to complete.
+[2021.04.20-18.30.52:858][846]LogFileHelpers: Loading map 'MotionControllerMap' took 0.457
+[2021.04.20-18.30.52:927][847]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2021.04.20-18.30.53:767][940]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.30.53:779][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.30.53:779][940]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:30:53)
+[2021.04.20-18.30.53:805][940]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.30.54:033][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.227453s)
+[2021.04.20-18.30.54:034][940]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.30.54:034][940]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F485CBFE00), frame # 3940
+[2021.04.20-18.30.54:034][940]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F4E0F382C0), frame # 3940
+[2021.04.20-18.30.54:034][940]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2021.04.20-18.30.54:035][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.229202s)
+[2021.04.20-18.30.54:044][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.30.54:046][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.30.54:046][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.30.54:047][940]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.30.54:047][940]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.30.54:058][940]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.30.54:059][940]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.30.54:080][940]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.30.54:080][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.30.54:080][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.30.54:080][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.30.54:080][940]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.30.54:106][940]LogInit: FAudioDevice initialized.
+[2021.04.20-18.30.54:116][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.30.54:163][940]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.30.54:166][940]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.30.54
+[2021.04.20-18.30.54:332][940]LogWorld: Bringing up level for play took: 0.169209
+[2021.04.20-18.30.54:333][940]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.04.20-18.30.56:627][940]PIE: Server logged in
+[2021.04.20-18.30.56:629][940]PIE: Play in editor total start time 2.851 seconds.
+[2021.04.20-18.31.34:983][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.31.34:983][304]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.31.35:026][304]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.31.35:065][304]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.31.35:065][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.31.35:072][304]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.31.35:077][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.31.35:129][304]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F4E0F382C0), frame # 6304
+[2021.04.20-18.31.35:129][304]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F485CBFE00), frame # 6304
+[2021.04.20-18.31.35:138][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.04.20-18.31.36:412][305]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.04.20-18.32.14:338][529]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn
+[2021.04.20-18.32.16:065][529]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.04.20-18.32.17:426][529]LogMaterial: Display: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2021.04.20-18.32.17:633][529]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.20-18.32.17:633][529]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.04.20-18.32.17:633][529]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.04.20-18.32.17:633][529]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.04.20-18.32.17:678][529]LogSlate: Took 0.008180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.20-18.32.18:125][530]LogSlate: Took 0.014206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.20-18.32.20:215][677]LogSlate: Window 'HMDLocomotionPawn' being destroyed
+[2021.04.20-18.32.47:238][674]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{0d1d5cb7-f2df-475c-9aec-fddf6df5e3a0}.
+[2021.04.20-18.32.47:238][674]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.32.47:345][674]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.32.47:345][674]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.32.47:526][685]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{0d1d5cb7-f2df-475c-9aec-fddf6df5e3a0}.
+[2021.04.20-18.32.47:538][685]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.32.47:571][685]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.32.47:571][685]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.32.48:612][790]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{0d1d5cb7-f2df-475c-9aec-fddf6df5e3a0}.
+[2021.04.20-18.32.48:612][790]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.32.48:645][790]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.32.48:645][790]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.34.06:808][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.04.20-18.34.36:598][111]BlueprintLog: New page: Compile HMDLocomotionPawn
+[2021.04.20-18.34.36:668][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.04.20-18.34.47:019][308]BlueprintLog: New page: Compile HMDLocomotionPawn
+[2021.04.20-18.34.47:046][308]LogBlueprint: Error: [Compiler HMDLocomotionPawn] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2021.04.20-18.34.47:046][308]LogBlueprint: Error: [Compiler HMDLocomotionPawn] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2021.04.20-18.34.47:046][308]LogBlueprint: Error: [Compiler HMDLocomotionPawn] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2021.04.20-18.34.47:046][308]LogBlueprint: Error: [Compiler HMDLocomotionPawn] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2021.04.20-18.34.47:046][308]LogBlueprint: Error: [Compiler HMDLocomotionPawn] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2021.04.20-18.34.47:105][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.04.20-18.34.47:171][308]LogSlate: Took 0.007849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.20-18.34.50:960][762]LogEditorTransaction: Undo Remove Components
+[2021.04.20-18.34.51:353][772]LogEditorTransaction: Undo Remove Components
+[2021.04.20-18.34.51:809][811]LogEditorTransaction: Undo Remove Components
+[2021.04.20-18.34.53:351][986]BlueprintLog: New page: Compile HMDLocomotionPawn
+[2021.04.20-18.34.53:413][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.04.20-18.35.08:152][702]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.04.20-18.35.08:153][702]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.04.20-18.35.08:153][702]LogMaterial: Display: 	Only transparent or postprocess materials can read from scene depth.
+[2021.04.20-18.35.10:274][923]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/VirtualReality/Materials/M_ArcEndpoint.M_ArcEndpoint
+[2021.04.20-18.35.10:276][923]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.10:657][923]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.10:676][923]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.10:693][923]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.20-18.35.10:693][923]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.04.20-18.35.10:693][923]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.04.20-18.35.10:693][923]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.04.20-18.35.10:697][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.04.20-18.35.10:701][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_2, compiling. 
+[2021.04.20-18.35.11:313][981]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2021.04.20-18.35.11:828][ 40]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.04.20-18.35.11:878][ 46]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.04.20-18.35.12:036][ 65]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2021.04.20-18.35.12:145][ 78]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2021.04.20-18.35.12:390][107]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.04.20-18.35.12:524][123]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.04.20-18.35.12:891][167]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.04.20-18.35.12:909][169]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2021.04.20-18.35.13:231][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.04.20-18.35.13:273][212]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.04.20-18.35.13:322][218]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.04.20-18.35.13:482][237]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2021.04.20-18.35.13:675][260]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.04.20-18.35.14:010][300]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.04.20-18.35.14:550][364]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2021.04.20-18.35.14:566][366]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.04.20-18.35.14:658][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.04.20-18.35.14:783][392]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.04.20-18.35.15:245][447]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.04.20-18.35.15:453][472]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.04.20-18.35.15:521][480]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.04.20-18.35.15:579][487]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.04.20-18.35.15:968][526]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.04.20-18.35.16:127][542]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.04.20-18.35.16:191][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.04.20-18.35.16:387][570]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Base pass shader: 175 instructions
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Base pass shader with Surface Lightmap: 218 instructions
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Base pass vertex shader: 233 instructions
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Texture samplers: 4/16
+[2021.04.20-18.35.16:416][571]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.04.20-18.35.16:479][578]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.04.20-18.35.23:139][366]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.23:162][368]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.20-18.35.23:162][368]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.04.20-18.35.23:162][368]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.04.20-18.35.23:162][368]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.04.20-18.35.23:503][405]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2021.04.20-18.35.23:905][453]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2021.04.20-18.35.23:963][460]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2021.04.20-18.35.24:155][483]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2021.04.20-18.35.24:330][504]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2021.04.20-18.35.24:532][528]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.04.20-18.35.24:550][530]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.04.20-18.35.24:793][553]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.04.20-18.35.24:850][560]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.04.20-18.35.25:202][595]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.04.20-18.35.25:262][602]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.04.20-18.35.25:371][615]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.04.20-18.35.25:480][628]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.04.20-18.35.25:581][640]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.04.20-18.35.25:917][680]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.04.20-18.35.26:389][733]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.04.20-18.35.26:540][751]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.04.20-18.35.26:639][763]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.04.20-18.35.26:668][765]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.04.20-18.35.27:014][802]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.04.20-18.35.27:760][891]LogMaterialEditor: Applying material M_ArcEndpoint
+[2021.04.20-18.35.28:276][891]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.28:335][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.20-18.35.28:336][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.04.20-18.35.28:336][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.04.20-18.35.28:336][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.04.20-18.35.28:360][891]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.28:442][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.04.20-18.35.28:476][891]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.04.20-18.35.29:045][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 65
+[2021.04.20-18.35.29:045][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+[2021.04.20-18.35.29:045][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2021.04.20-18.35.29:603][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2021.04.20-18.35.29:603][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 61
+[2021.04.20-18.35.29:603][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2021.04.20-18.35.29:603][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2021.04.20-18.35.29:603][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 57
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2021.04.20-18.35.30:162][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2021.04.20-18.35.30:722][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2021.04.20-18.35.31:279][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2021.04.20-18.35.31:279][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2021.04.20-18.35.31:279][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2021.04.20-18.35.31:279][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2021.04.20-18.35.31:279][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+[2021.04.20-18.35.31:741][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2021.04.20-18.35.31:741][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 44
+[2021.04.20-18.35.31:741][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2021.04.20-18.35.31:741][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2021.04.20-18.35.31:741][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2021.04.20-18.35.31:752][891]TextureStreamingBuild: Display: Compiling optional shaders took 3.293 seconds.
+[2021.04.20-18.35.31:785][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.04.20-18.35.32:241][938]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2021.04.20-18.35.35:618][325]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.36:481][423]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2021.04.20-18.35.36:681][447]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2021.04.20-18.35.37:222][504]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2021.04.20-18.35.37:545][542]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2021.04.20-18.35.37:888][582]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.04.20-18.35.38:171][615]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.38:285][627]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 36
+[2021.04.20-18.35.38:419][639]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
+[2021.04.20-18.35.38:434][640]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2021.04.20-18.35.38:562][655]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2021.04.20-18.35.38:920][698]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.04.20-18.35.39:037][712]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2021.04.20-18.35.39:245][736]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2021.04.20-18.35.39:668][784]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2021.04.20-18.35.39:693][787]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.04.20-18.35.39:777][797]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.04.20-18.35.39:894][811]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.04.20-18.35.40:069][832]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2021.04.20-18.35.40:336][864]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.04.20-18.35.40:420][874]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.04.20-18.35.40:552][890]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.04.20-18.35.40:562][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.04.20-18.35.40:754][914]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2021.04.20-18.35.41:039][948]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.04.20-18.35.41:100][955]LogMaterialEditor: Applying material M_ArcEndpoint
+[2021.04.20-18.35.41:821][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.04.20-18.35.41:821][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.04.20-18.35.41:821][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2021.04.20-18.35.41:821][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.04.20-18.35.41:821][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.04.20-18.35.41:839][955]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.41:928][955]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2021.04.20-18.35.42:019][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.20-18.35.42:026][955]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.04.20-18.35.42:588][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 81
+[2021.04.20-18.35.42:588][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 80
+[2021.04.20-18.35.42:588][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 79
+[2021.04.20-18.35.42:588][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 78
+[2021.04.20-18.35.43:147][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 77
+[2021.04.20-18.35.43:147][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 76
+[2021.04.20-18.35.43:147][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 75
+[2021.04.20-18.35.43:147][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 74
+[2021.04.20-18.35.43:706][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 73
+[2021.04.20-18.35.43:706][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 72
+[2021.04.20-18.35.43:706][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 71
+[2021.04.20-18.35.43:706][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 70
+[2021.04.20-18.35.43:706][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 69
+[2021.04.20-18.35.44:264][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 68
+[2021.04.20-18.35.44:264][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+[2021.04.20-18.35.44:264][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+[2021.04.20-18.35.44:264][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 65
+[2021.04.20-18.35.44:264][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 64
+[2021.04.20-18.35.44:824][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2021.04.20-18.35.44:824][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2021.04.20-18.35.44:824][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 61
+[2021.04.20-18.35.44:824][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2021.04.20-18.35.45:383][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 59
+[2021.04.20-18.35.45:383][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2021.04.20-18.35.45:383][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2021.04.20-18.35.45:383][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2021.04.20-18.35.45:383][955]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2021.04.20-18.35.45:678][955]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2021.04.20-18.35.45:679][955]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2021.04.20-18.35.45:682][955]TextureStreamingBuild: Display: Compiling optional shaders took 3.661 seconds.
+[2021.04.20-18.35.45:703][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.04.20-18.35.45:925][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.04.20-18.35.50:110][428]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.04.20-18.35.51:760][587]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.04.20-18.35.52:170][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.04.20-18.35.53:203][743]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.04.20-18.35.53:813][803]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.04.20-18.35.54:718][882]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.04.20-18.35.55:010][882]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.04.20-18.35.55:010][882]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.04.20-18.35.55:010][882]LogSavePackage: Moving '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/HMDLocomotionPawn9E70167A42492ACD9E4BB1B852773FFA.tmp' to '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset'
+[2021.04.20-18.35.55:061][882]AssetCheck: New page: Asset Save: HMDLocomotionPawn
+[2021.04.20-18.35.55:062][882]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn
+[2021.04.20-18.35.55:825][961]MaterialEditorStats: Base pass shader: 144 instructions
+[2021.04.20-18.35.55:825][961]MaterialEditorStats: Base pass shader with Surface Lightmap: 183 instructions
+[2021.04.20-18.35.55:825][961]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 165 instructions
+[2021.04.20-18.35.55:825][961]MaterialEditorStats: Base pass vertex shader: 233 instructions
+[2021.04.20-18.35.55:825][961]MaterialEditorStats: Texture samplers: 4/16
+[2021.04.20-18.36.08:393][448]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.36.08:403][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.36.08:403][448]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:36:08)
+[2021.04.20-18.36.08:444][448]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.36.08:469][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023823s)
+[2021.04.20-18.36.08:469][448]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.36.08:469][448]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4ED2D3E00), frame # 35448
+[2021.04.20-18.36.08:469][448]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F485B9D300), frame # 35448
+[2021.04.20-18.36.08:469][448]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2021.04.20-18.36.08:469][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.024945s)
+[2021.04.20-18.36.08:487][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.04.20-18.36.08:489][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.36.08:490][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.36.08:490][448]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.36.08:490][448]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.36.08:494][448]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.36.08:494][448]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.36.08:536][448]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.20-18.36.08:536][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.36.08:536][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.36.08:536][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.36.08:536][448]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.36.08:548][448]LogInit: FAudioDevice initialized.
+[2021.04.20-18.36.08:558][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.36.08:598][448]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.36.08:601][448]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.36.08
+[2021.04.20-18.36.08:601][448]LogWorld: Bringing up level for play took: 0.001532
+[2021.04.20-18.36.08:601][448]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.04.20-18.36.08:608][448]PIE: Server logged in
+[2021.04.20-18.36.08:609][448]PIE: Play in editor total start time 0.206 seconds.
+[2021.04.20-18.36.18:632][557]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{289bfb22-e945-44ce-8e81-5d0d5764de24}.
+[2021.04.20-18.36.18:632][557]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{289bfb22-e945-44ce-8e81-5d0d5764de24}.
+[2021.04.20-18.36.18:632][557]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.36.18:714][557]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.36.18:714][557]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.36.18:737][557]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.36.18:766][557]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.36.18:766][557]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.36.21:931][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.36.21:931][760]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.36.21:980][760]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.36.22:020][760]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.36.22:020][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.36.22:028][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.36.22:031][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.36.22:068][760]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F485B9D300), frame # 35760
+[2021.04.20-18.36.22:068][760]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F4ED2D3E00), frame # 35760
+[2021.04.20-18.36.22:070][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.04.20-18.36.22:102][761]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.04.20-18.36.27:573][248]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.36.27:582][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.36.27:583][248]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:36:27)
+[2021.04.20-18.36.27:583][248]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.36.27:595][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012180s)
+[2021.04.20-18.36.27:596][248]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.36.27:596][248]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4845EFE00), frame # 36248
+[2021.04.20-18.36.27:596][248]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F523CE4680), frame # 36248
+[2021.04.20-18.36.27:596][248]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2021.04.20-18.36.27:596][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013271s)
+[2021.04.20-18.36.27:616][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.36.27:617][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.36.27:617][248]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.36.27:617][248]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.36.27:622][248]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.36.27:622][248]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.36.27:633][248]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.36.27:633][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.36.27:633][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.36.27:633][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.36.27:634][248]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.36.27:646][248]LogInit: FAudioDevice initialized.
+[2021.04.20-18.36.27:656][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.36.27:699][248]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.36.27:702][248]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.36.27
+[2021.04.20-18.36.27:703][248]LogWorld: Bringing up level for play took: 0.002165
+[2021.04.20-18.36.27:703][248]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.04.20-18.36.27:709][248]PIE: Server logged in
+[2021.04.20-18.36.27:711][248]PIE: Play in editor total start time 0.129 seconds.
+[2021.04.20-18.36.42:379][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.36.42:379][213]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.36.42:412][213]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.36.42:450][213]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.36.42:450][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.36.42:455][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.36.42:458][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.36.42:493][213]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F523CE4680), frame # 37213
+[2021.04.20-18.36.42:493][213]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F4845EFE00), frame # 37213
+[2021.04.20-18.36.42:495][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.04.20-18.36.42:526][214]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.04.20-18.36.54:072][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.04.20-18.36.54:125][113]LogSavePackage: Moving '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/MotionControllerMapCBFCE860414D584DE58F79AF422836D6.tmp' to '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.04.20-18.36.54:325][113]LogSavePackage: Moving '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/MotionControllerMap_BuiltData50C083994A3F71E6AA35C19F6DC177CB.tmp' to '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2021.04.20-18.36.54:342][113]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-18.36.54:342][113]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.04.20-18.36.54:342][113]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2021.04.20-18.37.59:711][704]LogHMD: SteamVR Shutting down.
+[2021.04.20-18.38.07:772][728]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{0d1d5cb7-f2df-475c-9aec-fddf6df5e3a0}.
+[2021.04.20-18.38.07:772][728]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.38.07:835][728]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.07:835][728]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.12:803][781]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.38.12:823][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.38.12:823][781]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:38:12)
+[2021.04.20-18.38.12:823][781]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.38.12:833][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009920s)
+[2021.04.20-18.38.12:834][781]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.38.12:834][781]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F524686C00), frame # 38781
+[2021.04.20-18.38.12:834][781]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F509C9E840), frame # 38781
+[2021.04.20-18.38.12:834][781]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2021.04.20-18.38.12:834][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010890s)
+[2021.04.20-18.38.12:853][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.38.12:855][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.38.12:855][781]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.38.12:855][781]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.38.12:860][781]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.12:860][781]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.12:889][781]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.20-18.38.12:890][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.38.12:890][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.38.12:890][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.38.12:890][781]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.38.12:901][781]LogInit: FAudioDevice initialized.
+[2021.04.20-18.38.12:911][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.38.18:219][781]LogHMD: Failed to initialize OpenVR with code 108
+[2021.04.20-18.38.18:235][781]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.04.20-18.38.18:790][781]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.555 s
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: 
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: Ensure condition failed: IsInitialized() [File:D:/Build/++UE4+Licensee/Sync/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRHMD.cpp] [Line: 1776]
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: 
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: Stack: 
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffb968862c9 UE4Editor-SteamVR.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffb96877d6f UE4Editor-SteamVR.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffb96865553 UE4Editor-SteamVR.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba379f624 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba3791f7a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba37b311c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba3793189 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba37cecda UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba37d1f9d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba37d1978 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba325a034 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffba3b300d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ff6deec7800 UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ff6deedba7c UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ff6deedbb5a UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ff6deeee31d UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ff6deef145a UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffc33e17034 KERNEL32.DLL!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: [Callstack] 0x00007ffc35802651 ntdll.dll!UnknownFunction []
+[2021.04.20-18.38.18:791][781]LogOutputDevice: Error: 
+[2021.04.20-18.38.18:825][781]LogStats:                SubmitErrorReport -  0.000 s
+[2021.04.20-18.38.26:083][781]LogStats:                    SendNewReport -  7.258 s
+[2021.04.20-18.38.26:083][781]LogStats:             FDebug::EnsureFailed -  7.848 s
+[2021.04.20-18.38.26:115][781]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.38.26:118][781]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.38.26
+[2021.04.20-18.38.26:118][781]LogWorld: Bringing up level for play took: 0.001949
+[2021.04.20-18.38.26:118][781]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.04.20-18.38.26:125][781]PIE: Server logged in
+[2021.04.20-18.38.26:126][781]PIE: Play in editor total start time 13.304 seconds.
+[2021.04.20-18.38.26:138][781]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.38.26:156][781]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.26:156][781]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.32:174][200]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{289bfb22-e945-44ce-8e81-5d0d5764de24}.
+[2021.04.20-18.38.32:174][200]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{289bfb22-e945-44ce-8e81-5d0d5764de24}.
+[2021.04.20-18.38.32:175][200]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.38.32:193][200]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.32:194][200]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.32:208][200]LogTemp: Resetting audio stream to device id 
+[2021.04.20-18.38.32:233][200]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.32:233][200]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.34:563][207]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.38.34:568][207]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.38.34:568][207]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.38.34:569][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.38.34:576][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.38.34:578][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.38.34:614][207]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F509C9E840), frame # 39207
+[2021.04.20-18.38.34:614][207]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F524686C00), frame # 39207
+[2021.04.20-18.38.34:617][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.04.20-18.38.34:671][211]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.04.20-18.38.48:091][561]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.38.48:115][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.38.48:115][561]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:38:48)
+[2021.04.20-18.38.48:115][561]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.38.48:128][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012314s)
+[2021.04.20-18.38.48:129][561]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.38.48:129][561]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F485CBD000), frame # 39561
+[2021.04.20-18.38.48:129][561]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F523CE6340), frame # 39561
+[2021.04.20-18.38.48:129][561]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2021.04.20-18.38.48:129][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013550s)
+[2021.04.20-18.38.48:150][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.04.20-18.38.48:151][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.38.48:151][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.38.48:152][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.38.48:152][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.38.48:152][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.38.48:152][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.38.48:152][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.38.48:152][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.38.48:153][561]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.38.48:153][561]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.38.48:158][561]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.38.48:158][561]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.38.48:172][561]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.38.48:172][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.38.48:172][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.38.48:172][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.38.48:173][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.38.48:192][561]LogInit: FAudioDevice initialized.
+[2021.04.20-18.38.48:204][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.38.48:895][561]LogHMD: SteamVR initialized.  Driver: oculus  Display: 1PASH5D1P17365
+[2021.04.20-18.38.48:933][561]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.38.48:937][561]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.38.48
+[2021.04.20-18.38.48:937][561]LogWorld: Bringing up level for play took: 0.002928
+[2021.04.20-18.38.48:937][561]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.04.20-18.38.48:944][561]PIE: Server logged in
+[2021.04.20-18.38.48:945][561]PIE: Play in editor total start time 0.83 seconds.
+[2021.04.20-18.38.48:956][562]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
+[2021.04.20-18.38.48:957][562]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.38.48:957][562]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.38.48:962][562]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings
+[2021.04.20-18.38.48:970][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.04.20-18.38.48:973][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [22668][application.generated.ue.virtual-reality-bp-game-template-13594126.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.04.20-18.38.48:973][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: S:/Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.04.20-18.38.48:974][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.04.20-18.38.48:975][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:976][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:977][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:978][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.38.48:979][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:979][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.38.48:979][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.38.48:979][562]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-18.38.48:979][562]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-18.39.16:811][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.39.16:811][485]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.39.16:845][485]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.39.16:886][485]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.39.16:886][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.39.16:896][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.39.16:902][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.39.16:957][485]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F523CE6340), frame # 41485
+[2021.04.20-18.39.16:957][485]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F485CBD000), frame # 41485
+[2021.04.20-18.39.16:964][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.04.20-18.39.16:995][486]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.04.20-18.39.41:937][318]LogSavePackage: Moving '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Saved/HMDLocomotionPawn9C85448C4D84E850AC92A5A5C380E693.tmp' to '../../../../../../Documents/Unreal/BlinkTeleport/blink-teleport/BlinkTeleport/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset'
+[2021.04.20-18.39.41:951][318]AssetCheck: New page: Asset Save: HMDLocomotionPawn
+[2021.04.20-18.39.41:951][318]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn
+[2021.04.20-18.39.43:235][458]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.39.43:250][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.39.43:250][458]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:39:43)
+[2021.04.20-18.39.43:251][458]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.39.43:263][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012663s)
+[2021.04.20-18.39.43:264][458]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.39.43:264][458]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F4845EE800), frame # 44458
+[2021.04.20-18.39.43:264][458]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F524AB8900), frame # 44458
+[2021.04.20-18.39.43:264][458]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2021.04.20-18.39.43:264][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013887s)
+[2021.04.20-18.39.43:283][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.39.43:284][458]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.39.43:284][458]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.39.43:285][458]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.39.43:285][458]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.39.43:289][458]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.39.43:289][458]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.39.43:302][458]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.39.43:302][458]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.39.43:302][458]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.39.43:302][458]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.39.43:303][458]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.39.43:315][458]LogInit: FAudioDevice initialized.
+[2021.04.20-18.39.43:326][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.39.43:366][458]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.39.43:369][458]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.39.43
+[2021.04.20-18.39.43:369][458]LogWorld: Bringing up level for play took: 0.001974
+[2021.04.20-18.39.43:369][458]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.04.20-18.39.43:370][458]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.04.20-18.39.43:374][458]PIE: Server logged in
+[2021.04.20-18.39.43:376][458]PIE: Play in editor total start time 0.126 seconds.
+[2021.04.20-18.39.56:323][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.39.56:323][158]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.39.56:356][158]LogSlate: Window 'BlinkTeleport Preview [NetMode: Standalone] (64-bit/Windows) SteamVR' being destroyed
+[2021.04.20-18.39.56:386][158]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-18.39.56:386][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.39.56:393][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-18.39.56:397][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-18.39.56:442][158]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F524AB8900), frame # 45158
+[2021.04.20-18.39.56:442][158]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F4845EE800), frame # 45158
+[2021.04.20-18.39.56:444][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.04.20-18.39.56:470][159]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.04.20-18.41.14:788][449]LogTemp: Repeating last play command: VR Preview
+[2021.04.20-18.41.14:797][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-18.41.14:797][449]PIE: New page: PIE session: MotionControllerMap (20 Apr 2021, 22:41:14)
+[2021.04.20-18.41.14:797][449]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.04.20-18.41.14:808][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010951s)
+[2021.04.20-18.41.14:809][449]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.04.20-18.41.14:809][449]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F557723E00), frame # 54449
+[2021.04.20-18.41.14:809][449]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F5247BB600), frame # 54449
+[2021.04.20-18.41.14:810][449]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2021.04.20-18.41.14:810][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.012229s)
+[2021.04.20-18.41.14:828][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-18.41.14:829][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-18.41.14:829][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-18.41.14:830][449]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-18.41.14:830][449]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-18.41.14:834][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-18.41.14:834][449]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-18.41.14:846][449]LogAudioMixer: Display: Using Audio Device Speakers (Virtual Desktop Audio)
+[2021.04.20-18.41.14:846][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-18.41.14:846][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-18.41.14:846][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-18.41.14:846][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-18.41.14:858][449]LogInit: FAudioDevice initialized.
+[2021.04.20-18.41.14:868][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-18.41.14:902][449]LogLoad: Game class is 'GameModeBase'
+[2021.04.20-18.41.14:905][449]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2021.04.20-20.41.14
+[2021.04.20-18.41.14:905][449]LogWorld: Bringing up level for play took: 0.002671
+[2021.04.20-18.41.14:905][449]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.04.20-18.41.14:909][449]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2021.04.20-18.41.14:914][449]LogOutputDevice: Warning: 
+
+Script Stack (5 frames):
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2021.04.20-18.41.15:018][449]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.103 s
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: 
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Core/Private/Math/Matrix.cpp] [Line: 8]
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: Stack: 
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba7d94de6 UE4Editor-Core.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba7768c35 UE4Editor-Core.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48731bb UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba51311fa UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba5cf6d52 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb8270ac4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84c00bd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e30f3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e572d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84b3bca UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e5372 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e572d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84b3bca UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e5372 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e572d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e4c34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb8270ac4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e4763 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba491a025 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48e47db UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48f02fc UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba49164f2 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48fc59c UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba4fca1ae UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba5c92be6 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb850a615 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb850ce5f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e572d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84b3bca UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e5372 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e572d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e4c34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb8270ac4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e4763 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba491a025 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48e47db UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba48f02fc UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba5b957fd UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba4fd25d1 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba5b3fc9e UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba4ff3969 UE4Editor-Engine.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba379224c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba37b311c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba3793189 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba37cecda UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba37d1f9d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba37d1978 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba325a034 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ffba3b300d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ff6deec7800 UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ff6deedba7c UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.41.15:018][449]LogOutputDevice: Error: [Callstack] 0x00007ff6deedbb5a UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.41.15:019][449]LogOutputDevice: Error: [Callstack] 0x00007ff6deeee31d UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.41.15:019][449]LogOutputDevice: Error: [Callstack] 0x00007ff6deef145a UE4Editor.exe!UnknownFunction []
+[2021.04.20-18.41.15:019][449]LogOutputDevice: Error: [Callstack] 0x00007ffc33e17034 KERNEL32.DLL!UnknownFunction []
+[2021.04.20-18.41.15:019][449]LogOutputDevice: Error: [Callstack] 0x00007ffc35802651 ntdll.dll!UnknownFunction []
+[2021.04.20-18.41.15:019][449]LogOutputDevice: Error: 
